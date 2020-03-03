@@ -13,6 +13,8 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        // Acessando o container padrão
         let container = CKContainer.default()
         let db = container.privateCloudDatabase
         
